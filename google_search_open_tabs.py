@@ -1,5 +1,5 @@
 #Python program  by Javier Marti
-'''This program searches for any numvber of search terms (plus extra additional words)and scrapes for emails the
+'''This program searches for any number of search terms (plus extra additional words)and scrapes for emails the
 first X number of results or several result pages. Once this is done the program uses Selenium and Regex to extract the email. Then the program verifies that emails are not
 already in the existing list, and if so appends them to the list.
 '''

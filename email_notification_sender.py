@@ -85,7 +85,8 @@ while True:
     #close Notepad file
     txtfile.close()
 
-    #cpioqsrhlndfizsg
+    #password reminder goes here
+    #password
 
     #MAKE PROGRAM SLEEP FOR X SECONDS
     time.sleep(20)

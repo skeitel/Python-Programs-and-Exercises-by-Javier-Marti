@@ -1,5 +1,6 @@
 # Python Programs and Exercises by Javier Marti
-Extracting maximum business value through data extraction automation.
+"Extracting maximum business value through data extraction automation."
+
 Instead of being simple theoretical exercises, my programs displayed here have a variety of practical and profitable applications, saving time and money to organizations or simplifying information gathering and sharing of valuable information. 
 Some examples are:
 

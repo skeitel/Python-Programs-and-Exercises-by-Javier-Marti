@@ -1,7 +1,7 @@
 # Python Programs and Exercises by Javier Marti
 "Extracting maximum business value through data extraction automation."
 
-Instead of being simple theoretical exercises, my programs displayed here have a variety of practical and profitable applications, saving time and money to organizations or simplifying information gathering and sharing of valuable information. 
+My programs have a variety of practical and applications, saving time and money to organizations or simplifying information gathering and the sharing of valuable information in a timely fashion. 
 Some examples are:
 
 - google_search_open_tabs.py is useful to automate and speed up the process of Google searching many different search terms. The program searches for any number of search terms (plus extra additional words)and scrapes for emails the

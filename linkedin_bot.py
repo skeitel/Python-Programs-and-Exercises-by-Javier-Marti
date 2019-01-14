@@ -14,10 +14,10 @@ def log_in():
     if browser.find_element_by_id('login-email'):
         try:
             email = browser.find_element_by_id('login-email')
-            email.send_keys('niquel757@gmail.com')
+            email.send_keys('email_goes_here')
             pssw = browser.find_element_by_id('login-password')
             time.sleep(random.uniform(0.2,0.8))
-            pssw.send_keys("lalala1")
+            pssw.send_keys("xxxxx")
             pssw.submit()
             print('Logging in...')
         except:
@@ -45,8 +45,8 @@ def send_email():
     mail = smtplib.SMTP('smtp.mail.yahoo.com', 587)
     mail.ehlo()
     mail.starttls()
-    mail.login('ram_308@yahoo.com','ifeelhappy1')
-    mail.sendmail('ram_308@yahoo.com','niquel757@gmail.com', content)
+    mail.login('email','pssw')
+    mail.sendmail('email','pssw', content)
 
 
 # browser = webbrowser.open('http://www.linkedin.com') #WORKS TO OPEN IN NEW TAB

@@ -40,8 +40,8 @@ with open(textfile) as fp:
 
 # me == the sender's email address
 # you == the recipient's email address
-me = 'ram_308@yahoo.com'
-you = 'niquel757@gmail.com'
+me = 'email1'
+you = 'email2'
 
 
 msg['Subject'] = 'The contents of the file %s' % textfile
@@ -54,8 +54,8 @@ msg['To'] = you
 mail = smtplib.SMTP('smtp.mail.yahoo.com', 587)
 mail.ehlo()
 mail.starttls()
-#mail.login('ram_308@yahoo.com',pa)
-mail.login('ram_308', 'password_goes_here') #delete this line if you want it back to password-dependent
+#mail.login('email1',pa)
+mail.login('email1', 'password_goes_here') #delete this line if you want it back to password-dependent
 mail.send_message(msg)
 mail.quit()
 
